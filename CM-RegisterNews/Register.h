@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 //Debug
 #define nDebugEnable        1
 #define print(x)            if(nDebugEnable){(x);}
