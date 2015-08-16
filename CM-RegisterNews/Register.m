@@ -7,6 +7,7 @@
 //
 
 #import "Register.h"
+#import "WelcomeViewController.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 
@@ -40,6 +41,9 @@ static int iKeyboardHeight = 100;
 #pragma mark - Action methods methods
 /**********************************************************************************************/
 - (IBAction)btnNextPressed:(id)sender {
+    WelcomeViewController *welcome = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"WelcomeViewController"];
+    
+    [self presentViewController:welcome animated:YES completion:nil];
 }
 //-------------------------------------------------------------------------------
 - (IBAction)btnMenuPressed:(id)sender {
