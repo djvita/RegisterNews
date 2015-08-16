@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		384F16061B8111CC00C8782B /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 384F16051B8111CC00C8782B /* WelcomeViewController.m */; };
+		384F16081B81180D00C8782B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384F16071B81180D00C8782B /* Social.framework */; };
 		38A25EB41B7B87C0000777C2 /* FacebookSDK in Resources */ = {isa = PBXBuildFile; fileRef = 38A25EB31B7B87C0000777C2 /* FacebookSDK */; };
 		38A25EB71B7B8875000777C2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A25EB51B7B8875000777C2 /* FBSDKCoreKit.framework */; };
 		38A25EB81B7B8875000777C2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A25EB61B7B8875000777C2 /* FBSDKLoginKit.framework */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		384F16041B8111CC00C8782B /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
 		384F16051B8111CC00C8782B /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		384F16071B81180D00C8782B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		38A25EB31B7B87C0000777C2 /* FacebookSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FacebookSDK; sourceTree = SOURCE_ROOT; };
 		38A25EB51B7B8875000777C2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = FacebookSDK/FBSDKCoreKit.framework; sourceTree = SOURCE_ROOT; };
 		38A25EB61B7B8875000777C2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = FacebookSDK/FBSDKLoginKit.framework; sourceTree = SOURCE_ROOT; };
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384F16081B81180D00C8782B /* Social.framework in Frameworks */,
 				38A25EB81B7B8875000777C2 /* FBSDKLoginKit.framework in Frameworks */,
 				38A25EB71B7B8875000777C2 /* FBSDKCoreKit.framework in Frameworks */,
 			);
@@ -89,6 +92,7 @@
 		D1C17A331B63D54C00E3134B = {
 			isa = PBXGroup;
 			children = (
+				384F16071B81180D00C8782B /* Social.framework */,
 				D1C17A3E1B63D54C00E3134B /* CM-RegisterNews */,
 				D1C17A5B1B63D54C00E3134B /* CM-RegisterNewsTests */,
 				D1C17A3D1B63D54C00E3134B /* Products */,
